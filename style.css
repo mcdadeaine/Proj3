@@ -48,4 +48,21 @@ nav a:hover {
   text-shadow: 0 0 8px #d38bff;
 }
 
+.title {
+  text-align: center;
+  padding: 100px 20px 40px;
+}
+.title h1 {
+  font-family: "Space Grotesk", serif;
+  font-size: 4rem;
+  letter-spacing: 2px;
+  color: #ffffff;
+  text-shadow: 0 0 10px #b57bff, 0 0 20px #974bff80;
+}
+.subtitle {
+  margin-top: 10px;
+  font-size: 1.3rem;
+  letter-spacing: 1px;
+  color: #bfa3ff;
+}
 
