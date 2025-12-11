@@ -37,6 +37,15 @@ nav {
   color: #ffffff;
   text-shadow: 0 0 10px #b57bff, 0 0 20px #974bff80;
 }
+nav a {
+  font-weight: 500;
+  font-size: 1rem;
+  padding: 5px;
+}
 
+nav a:hover {
+  color: #ffffff;
+  text-shadow: 0 0 8px #d38bff;
+}
 
 
