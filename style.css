@@ -109,6 +109,14 @@ footer {
   text-align: center;
   border-top: 1px solid white;
 }
+/*footer links*/
+footer a {
+color: #b57bff;
+text-decoration: none;
+}
+footer a:hover {
+color: #e600ff;
+}
 
 /* about page */
 .about-title {
