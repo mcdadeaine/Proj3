@@ -175,6 +175,33 @@ footer {
   100% { text-shadow: 0 0 110px cyan, 0 0 20px; }
 }
 
+.schedule-item {
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 800px;
+  border: 2px solid magenta;
+  border-radius: 10px;
+  box-shadow: 0 0 20px #b57bff80;
+}
+
+/*schedule headings */
+.schedule-item h2 {
+  font-family: "Audiowide", cursive;
+  font-size: 1.8rem;
+  color: #fff;
+  text-shadow: 0 0 10px #d38bff, 0 0 20px #b57bff80;
+  margin-bottom: 10px;
+}
+
+/*schedule body text */
+.schedule-item p {
+  font-family: "Space Grotesk", sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.8;
+  color: #fff;
+  letter-spacing: 0.5px;
+}
+
 /*mobile adjustments*/
 @media (max-width: 480px) {
   nav {
