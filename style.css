@@ -29,7 +29,16 @@ nav {
   justify-content: space-between;
   align-items: center;
 }
+nav ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
 
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
 .logo {
   font-family: "Audiowide", cursive;
   font-size: 2rem;
