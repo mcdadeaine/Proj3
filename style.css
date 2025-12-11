@@ -143,6 +143,17 @@ footer {
   color: white;
 }
 
+/*image styling*/
+.about-image {
+  flex: 1;
+  min-width: 250px;
+  max-width: 400px;
+  border: 2px solid #b57bff;
+  box-shadow: 0 0 30px #b57bff80;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
 /*mobile adjustments*/
 @media (max-width: 480px) {
   nav {
