@@ -17,6 +17,12 @@ body {
   font-family: "Space Grotesk", sans-serif;
 }
 
+header {
+  width: 100%;
+  padding: 20px 40px;
+  background: black;
+  border-bottom: 1px solid white
+}
 
 
 
