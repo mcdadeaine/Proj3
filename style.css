@@ -153,6 +153,27 @@ footer {
   border-radius: 10px;
   object-fit: cover;
 }
+/*schedule page*/
+.schedule-title {
+  text-align: center;
+  padding: 100px 20px 40px;
+}
+
+.schedule-title h1 {
+  font-family: "Audiowide", cursive;
+  font-size: 4rem;
+  letter-spacing: 2px;
+  color: #fff;
+  text-shadow: 0 0 10px #b57bff, 0 0 20px #974bff80;
+  animation: pulse 2s infinite alternate ease-in-out;
+  margin-bottom: 60px;
+}
+
+/* animation */
+@keyframes pulse {
+  50% { text-shadow: 0 0 110px #e600ff, 0 0 40px; }
+  100% { text-shadow: 0 0 110px cyan, 0 0 20px; }
+}
 
 /*mobile adjustments*/
 @media (max-width: 480px) {
