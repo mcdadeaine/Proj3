@@ -81,5 +81,15 @@ footer {
   font-size: 0.9rem;
   border-top: 1px solid white
 }
-
+@media (max-width: 480px) {
+  nav {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .title h1 {
+    font-size: 2.8rem;
+  }
+  .event-details {
+    font-size: 1rem;
+  }
 }
