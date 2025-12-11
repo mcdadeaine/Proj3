@@ -110,6 +110,39 @@ footer {
   border-top: 1px solid white;
 }
 
+/* about page */
+.about-title {
+  max-width: 1000px;
+  margin: 100px auto 0 auto;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/*text block */
+.about-text {
+  flex: 1;
+  min-width: 300px;
+}
+
+.about-title h1 {
+  font-family: "Audiowide", cursive;
+  font-size: 3.5rem;
+  color: #fff;
+  text-shadow: 0 0 10px #b57bff, 0 0 20px #974bff80;
+  margin-bottom: 20px;
+  animation: pulse 3s infinite alternate ease-in-out;
+}
+
+.about-body {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  color: white;
+}
+
 /*mobile adjustments*/
 @media (max-width: 480px) {
   nav {
