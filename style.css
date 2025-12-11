@@ -8,7 +8,7 @@ html {
   line-height: 1.4;
   font-size: 16pt;
 }
-
+/*body style*/
 body {
   margin: 0;
   padding: 0;
@@ -17,6 +17,7 @@ body {
   font-family: "Space Grotesk", sans-serif;
 }
 
+/*header + nav bar*/
 header {
   width: 100%;
   padding: 20px 40px;
@@ -39,6 +40,7 @@ nav ul li a {
   color: #fff;
   text-decoration: none;
 }
+/*logo style*/
 .logo {
   font-family: "Audiowide", cursive;
   font-size: 2rem;
@@ -46,17 +48,18 @@ nav ul li a {
   color: #ffffff;
   text-shadow: 0 0 10px #b57bff, 0 0 20px #974bff80;
 }
+/*nav links*/
 nav a {
   font-weight: 500;
   font-size: 1rem;
   padding: 5px;
 }
-
+/*hover effect*/
 nav a:hover {
   color: #ffffff;
   text-shadow: 0 0 8px #d38bff;
 }
-
+/*main*/
 .title {
   text-align: center;
   padding: 100px 20px 40px;
@@ -68,12 +71,14 @@ nav a:hover {
   color: #ffffff;
   text-shadow: 0 0 10px #b57bff, 0 0 20px #974bff80;
 }
+/*subtitle text*/
 .subtitle {
   margin-top: 10px;
   font-size: 1.3rem;
   letter-spacing: 1px;
   color: #bfa3ff;
 }
+/*event details block*/
 .event-details {
   text-align: center;
   margin-top: 20px;
@@ -82,6 +87,7 @@ nav a:hover {
   line-height: 1.8;
   color: #e6e6e6;
 }
+/*footer*/
 footer {
   margin-top: 80px;
   padding: 40px 20px;
@@ -90,6 +96,7 @@ footer {
   font-size: 0.9rem;
   border-top: 1px solid white
 }
+/*mobile adjustments*/
 @media (max-width: 480px) {
   nav {
     flex-direction: column;
