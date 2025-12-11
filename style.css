@@ -74,6 +74,12 @@ nav a:hover {
   letter-spacing: 2px;
   color: #ffffff;
   text-shadow: 0 0 10px #b57bff, 0 0 20px #974bff80;
+  animation: pulse 2s infinite alternate ease-in-out;
+}
+/*animation*/
+@keyframes pulse {
+50% { text-shadow: 0 0 110px #e600ff, 0 0 40px ; }
+100% { text-shadow: 0 0 110px cyan, 0 0 20px; }
 }
 /*subtitle text*/
 .subtitle {
