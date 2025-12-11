@@ -213,13 +213,29 @@ color: #e600ff;
 /*mobile adjustments*/
 @media (max-width: 480px) {
   nav {
-    flex-direction: column;
-    gap: 10px;
-  }
-  .title h1 {
-    font-size: 2.8rem;
-  }
-  .event-details {
-    font-size: 1rem;
+flex-direction: column;
+ gap: 10px;
+ }
+.title h1 {
+font-size: 2.8rem;
+}
+.event-details {
+font-size: 1rem;
   }
 }
+
+.about-title h1 {
+font-size: 2.4rem;
+}
+.about-text {
+min-width: 100%;
+}
+.about-body {
+font-size: 1rem;
+line-height: 1.6;
+}
+.about-image {
+max-width: 80%;
+min-width: 200px;
+}
+
